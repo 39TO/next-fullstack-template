@@ -5,11 +5,11 @@ import { ThemeToggle } from '@/components/sample/theme-toggle';
 import { Button } from '@/components/ui/button';
 import { PATHS } from '@/config/paths';
 import { siteConfig } from '@/config/site';
-import { getCurrentUser } from '@/lib/session';
+import { authUser } from '@/lib/session';
 import { UserAccountNav } from './user-account-nav';
 
 export async function SiteHeader() {
-  const user = await getCurrentUser();
+  const user = await authUser();
   console.log(user);
   return (
     <header className="sticky top-0 z-40 w-full border-b bg-background">
