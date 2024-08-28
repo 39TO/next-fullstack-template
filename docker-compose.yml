@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  postgres:
+    image: postgres:latest
+    container_name: nextjs-pg
+    environment:
+      POSTGRES_USER: hoge
+      POSTGRES_PASSWORD: pass
+      POSTGRES_DB: pg
+    ports:
+      - '5432:5432'
+    volumes:
+      - nextjs-pg-volume:/var/lib/postgresql/data
+
+volumes:
+  nextjs-pg-volume:
