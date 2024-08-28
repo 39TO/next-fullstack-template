@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 
-import { UserAuthForm } from '@/components/user-auth-form';
+import { UserAuthForm } from '@/components/sample/user-auth-form';
 import Image from 'next/image';
 
 export const metadata: Metadata = {

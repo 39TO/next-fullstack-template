@@ -1,5 +1,5 @@
-import { DashboardHeader } from '@/components/header';
-import { DashboardShell } from '@/components/shell';
+import { DashboardHeader } from '@/components/sample/header';
+import { DashboardShell } from '@/components/sample/shell';
 import { Skeleton } from '@/components/ui/skeleton';
 
 export default function DashboardLoading() {

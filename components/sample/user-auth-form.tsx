@@ -3,11 +3,11 @@
 import { signIn } from 'next-auth/react';
 import * as React from 'react';
 
-import { Icons } from '@/components/icons';
+import { Icons } from '@/components/sample/icons';
 import { PATHS } from '@/config/paths';
 import { cn } from '@/lib/utils';
 import MagicLinkForm from './magic-link-form';
-import { Button } from './ui/button';
+import { Button } from '../ui/button';
 
 interface UserAuthFormProps extends React.HTMLAttributes<HTMLDivElement> {}
 

@@ -1,10 +1,10 @@
 import '@/styles/globals.css';
 import { Metadata } from 'next';
 
-import { Analytics } from '@/components/analytics';
-import { SiteHeader } from '@/components/site-header';
-import { TailwindIndicator } from '@/components/tailwind-indicator';
-import { ThemeProvider } from '@/components/theme-provider';
+import { Analytics } from '@/components/sample/analytics';
+import { SiteHeader } from '@/components/sample/site-header';
+import { TailwindIndicator } from '@/components/sample/tailwind-indicator';
+import { ThemeProvider } from '@/components/sample/theme-provider';
 import { seoMetaData } from '@/config/seo-meta-data';
 import { fontMono, fontSans } from '@/lib/fonts';
 import { cn } from '@/lib/utils';

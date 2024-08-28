@@ -8,9 +8,15 @@ import { signIn } from 'next-auth/react';
 import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { Icons } from './icons';
-import { Button } from './ui/button';
-import { Form, FormControl, FormField, FormItem, FormMessage } from './ui/form';
-import { Input } from './ui/input';
+import { Button } from '../ui/button';
+import {
+  Form,
+  FormControl,
+  FormField,
+  FormItem,
+  FormMessage,
+} from '../ui/form';
+import { Input } from '../ui/input';
 
 const formSchema = z.object({
   email: z.string().email(),
