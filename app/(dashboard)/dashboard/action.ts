@@ -1,6 +1,6 @@
 'use server';
 
-import { repoTodo } from '@/app/_repo/todo';
+import { repoTodo } from '@/core/repo/todo';
 import { authUser } from '@/lib/session';
 import { revalidatePath } from 'next/cache';
 

@@ -1,4 +1,4 @@
-import { repoTodo } from '@/app/_repo/todo';
+import { repoTodo } from '@/core/repo/todo';
 import {
   Table,
   TableBody,
