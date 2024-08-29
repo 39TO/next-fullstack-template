@@ -133,8 +133,8 @@ importers:
         specifier: ^3.13.0
         version: 3.13.0(tailwindcss@3.4.0)
       husky:
-        specifier: ^8.0.0
-        version: 8.0.3
+        specifier: ^9.1.5
+        version: 9.1.5
       postcss:
         specifier: ^8.4.24
         version: 8.4.32
@@ -2020,9 +2020,9 @@ packages:
     resolution: {integrity: sha512-vUptKVTpIJhcczKBbgnS+RtcuYMB8+oNzPK2/Hp3hanz8JmpATdmmgLgSaadVREkDm+e2giHwY3ZRkyjSIDDFA==}
     engines: {node: '>= 0.4'}
 
-  husky@8.0.3:
-    resolution: {integrity: sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg==}
-    engines: {node: '>=14'}
+  husky@9.1.5:
+    resolution: {integrity: sha512-rowAVRUBfI0b4+niA4SJMhfQwc107VLkBUgEYYAOQAbqDCnra1nYh83hF/MDmhYs9t9n1E3DuKOrs2LYNC+0Ag==}
+    engines: {node: '>=18'}
     hasBin: true
 
   ieee754@1.2.1:
@@ -4926,7 +4926,7 @@ snapshots:
     dependencies:
       function-bind: 1.1.2
 
-  husky@8.0.3: {}
+  husky@9.1.5: {}
 
   ieee754@1.2.1: {}
 
